@@ -19,24 +19,24 @@
 
 <net version="0.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/net_file.xsd">
 
-    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,5000.20,0.00" origBoundary="0.00,0.00,5000.20,0.00" projParameter="!"/>
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,1000.20,0.00" origBoundary="0.00,0.00,1000.20,0.00" projParameter="!"/>
 
     <edge id=":kanan_0" function="internal">
-        <lane id=":kanan_0_0" index="0" speed="33.33" length="0.10" shape="5000.00,-4.95 5000.00,-4.95"/>
-        <lane id=":kanan_0_1" index="1" speed="33.33" length="0.10" shape="5000.00,-1.65 5000.00,-1.65"/>
+        <lane id=":kanan_0_0" index="0" speed="33.33" length="0.10" shape="1000.00,-4.95 1000.00,-4.95"/>
+        <lane id=":kanan_0_1" index="1" speed="33.33" length="0.10" shape="1000.00,-1.65 1000.00,-1.65"/>
     </edge>
 
     <edge id="jalantol" from="kiri" to="kanan" priority="0">
-        <lane id="jalantol_0" index="0" speed="33.33" length="5000.00" shape="0.00,-4.95 5000.00,-4.95"/>
-        <lane id="jalantol_1" index="1" speed="33.33" length="5000.00" shape="0.00,-1.65 5000.00,-1.65"/>
+        <lane id="jalantol_0" index="0" speed="33.33" length="1000.00" shape="0.00,-4.95 1000.00,-4.95"/>
+        <lane id="jalantol_1" index="1" speed="33.33" length="1000.00" shape="0.00,-1.65 1000.00,-1.65"/>
     </edge>
     <edge id="jalantol2" from="kanan" to="berhenti" priority="0">
-        <lane id="jalantol2_0" index="0" speed="33.33" length="0.20" shape="5000.00,-4.95 5000.20,-4.95"/>
-        <lane id="jalantol2_1" index="1" speed="33.33" length="0.20" shape="5000.00,-1.65 5000.20,-1.65"/>
+        <lane id="jalantol2_0" index="0" speed="33.33" length="0.20" shape="1000.00,-4.95 1000.20,-4.95"/>
+        <lane id="jalantol2_1" index="1" speed="33.33" length="0.20" shape="1000.00,-1.65 1000.20,-1.65"/>
     </edge>
 
-    <junction id="berhenti" type="unregulated" x="5000.20" y="0.00" incLanes="jalantol2_0 jalantol2_1" intLanes="" shape="5000.20,-6.55 5000.20,-0.05"/>
-    <junction id="kanan" type="priority" x="5000.00" y="0.00" incLanes="jalantol_0 jalantol_1" intLanes=":kanan_0_0 :kanan_0_1" shape="5000.00,-0.05 5000.00,-6.55 5000.00,-0.05">
+    <junction id="berhenti" type="unregulated" x="1000.20" y="0.00" incLanes="jalantol2_0 jalantol2_1" intLanes="" shape="1000.20,-6.55 1000.20,-0.05"/>
+    <junction id="kanan" type="priority" x="1000.00" y="0.00" incLanes="jalantol_0 jalantol_1" intLanes=":kanan_0_0 :kanan_0_1" shape="1000.00,-0.05 1000.00,-6.55 1000.00,-0.05">
         <request index="0" response="00" foes="00" cont="0"/>
         <request index="1" response="00" foes="00" cont="0"/>
     </junction>

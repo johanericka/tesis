@@ -4,5 +4,5 @@
 	 	<vType id="truck" accel="1" decel="2" sigma="0.5" length="8" speedFactor="1.0" speedDev="0.1" maxSpeed="15" probability="0.5"/>
 	 </vTypeDistribution>	
 	 <route id="route0" edges="jalantol jalantol2"/>
-	 <flow id="aliran" begin="0" end="100"  route="route0" period="4" type="jeniskendaraan" />
+	 <flow id="aliran" begin="0" end="20"  route="route0" period="2" type="jeniskendaraan" />
 </routes>
