@@ -1,10 +1,54 @@
 <routes>
 	<vType id="normalCar" accel="2" decel="4" sigma="0.5" length="4" speedFactor="1.0" speedDev="0.05" maxSpeed="30" color="0,1,0" probability="0.5"/>
- 	<vType id="truck" accel="1" decel="2" sigma="0.5" length="8" speedFactor="1.0" speedDev="0.1" maxSpeed="15" probability="0.5"/>
+ 	<vType id="truck" accel="1" decel="2" sigma="0.5" length="6" speedFactor="1.0" speedDev="0.1" maxSpeed="15" probability="0.5"/>
 	<route id="route0" edges="jalantol jalantol2"/>
 	
 	<vehicle id="0" type="normalCar" route="route0" depart="0"> 
+		<stop lane="jalantol_0" endPos="900" until="500" />
+	</vehicle>
+	<vehicle id="1" type="truck" route="route0" depart="5" color="1,0,0">
+		<stop lane="jalantol_1" endPos="900" until="500" />
+	</vehicle>
+	<vehicle id="2" type="normalCar" route="route0" depart="10"> 
 		<stop lane="jalantol_0" endPos="900" until="100" />
 	</vehicle>
-	<vehicle id="1" type="truck" route="route0" depart="0" color="1,0,0" />
+	<vehicle id="3" type="truck" route="route0" depart="10" color="0,1,0">
+		<stop lane="jalantol_1" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="4" type="normalCar" route="route0" depart="15"> 
+		<stop lane="jalantol_0" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="5" type="truck" route="route0" depart="20" color="0,0,1">
+		<stop lane="jalantol_1" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="6" type="normalCar" route="route0" depart="25"> 
+		<stop lane="jalantol_0" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="7" type="truck" route="route0" depart="30" color="1,0,0">
+		<stop lane="jalantol_1" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="8" type="normalCar" route="route0" depart="35"> 
+		<stop lane="jalantol_0" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="9" type="truck" route="route0" depart="40" color="0,1,0">
+		<stop lane="jalantol_1" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="10" type="normalCar" route="route0" depart="45"> 
+		<stop lane="jalantol_0" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="11" type="truck" route="route0" depart="50" color="0,0,1">
+		<stop lane="jalantol_1" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="12" type="normalCar" route="route0" depart="55"> 
+		<stop lane="jalantol_0" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="13" type="truck" route="route0" depart="60" color="1,0,0">
+		<stop lane="jalantol_1" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="14" type="normalCar" route="route0" depart="65"> 
+		<stop lane="jalantol_0" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="15" type="truck" route="route0" depart="70" color="0,1,0">
+		<stop lane="jalantol_1" endPos="900" until="100" />
+	</vehicle>
 </routes>
