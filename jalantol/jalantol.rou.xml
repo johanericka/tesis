@@ -4,10 +4,10 @@
 	<route id="route0" edges="jalantol jalantol2"/>
 	
 	<vehicle id="0" type="normalCar" route="route0" depart="0"> 
-		<stop lane="jalantol_0" endPos="900" until="500" />
+		<stop lane="jalantol_0" endPos="900" until="200" />
 	</vehicle>
 	<vehicle id="1" type="truck" route="route0" depart="5" color="1,0,0">
-		<stop lane="jalantol_1" endPos="900" until="500" />
+		<stop lane="jalantol_1" endPos="900" until="200" />
 	</vehicle>
 	<vehicle id="2" type="normalCar" route="route0" depart="10"> 
 		<stop lane="jalantol_0" endPos="900" until="100" />
