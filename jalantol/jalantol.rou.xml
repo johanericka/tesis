@@ -1,8 +1,10 @@
 <routes>
-	<vTypeDistribution id="jeniskendaraan">
-	 	<vType id="normalCar" accel="2" decel="4" sigma="0.5" length="4" speedFactor="1.0" speedDev="0.05" maxSpeed="30" color="0,1,0" probability="0.5"/>
-	 	<vType id="truck" accel="1" decel="2" sigma="0.5" length="8" speedFactor="1.0" speedDev="0.1" maxSpeed="15" probability="0.5"/>
-	 </vTypeDistribution>	
-	 <route id="route0" edges="jalantol jalantol2"/>
-	 <flow id="aliran" begin="0" end="20"  route="route0" period="2" type="jeniskendaraan" />
+	<vType id="normalCar" accel="2" decel="4" sigma="0.5" length="4" speedFactor="1.0" speedDev="0.05" maxSpeed="30" color="0,1,0" probability="0.5"/>
+ 	<vType id="truck" accel="1" decel="2" sigma="0.5" length="8" speedFactor="1.0" speedDev="0.1" maxSpeed="15" probability="0.5"/>
+	<route id="route0" edges="jalantol jalantol2"/>
+	
+	<vehicle id="0" type="normalCar" route="route0" depart="0"> 
+		<stop lane="jalantol_0" endPos="900" until="100" />
+	</vehicle>
+	<vehicle id="1" type="truck" route="route0" depart="0" color="1,0,0" />
 </routes>

@@ -1,4 +1,4 @@
 <edges>
-   <edge id="jalantol" from="kiri" to="kanan" speed="33.33" priority="0" spreadType="right" numLanes="2"/>
-   <edge id="jalantol2" from="kanan" to="berhenti" speed="33.33" priority="0" spreadType="right" numLanes="2"/>
+   <edge id="jalantol" from="kiri" to="kanan" speed="33.33" priority="0" spreadType="right" numLanes="3"/>
+   <edge id="jalantol2" from="kanan" to="berhenti" speed="33.33" priority="0" spreadType="right" numLanes="3"/>
 </edges>
