@@ -4,16 +4,11 @@ Mac/Simple set bandwidth_ 1Mb
 set MESSAGE_PORT 42
 set BROADCAST_ADDR -1
 
-#radio
+#preset
 set val(chan)           Channel/WirelessChannel    ;#Channel Type
 set val(prop)           Propagation/TwoRayGround   ;# radio-propagation model
 set val(netif)          Phy/WirelessPhy            ;# network interface type
-
-#protokol
 set val(mac)            Mac/802_11                 ;# MAC type
-#set val(mac)            Mac                 ;# MAC type
-#set val(mac)		Mac/Simple
-
 set val(ifq)            Queue/DropTail/PriQueue    ;# interface queue type
 set val(ll)             LL                         ;# link layer type
 set val(ant)            Antenna/OmniAntenna        ;# antenna model
@@ -22,9 +17,6 @@ set val(ifqlen)         50                         ;# max packet in ifq
 
 #agen
 set val(rp) DumbAgent
-#set val(rp)             DSDV
-#set val(rp)		 AODV
-
 
 # bidang kerja
 set val(y)		1500
@@ -33,9 +25,11 @@ set val(x)		1500
 #simulatornya
 set ns [new Simulator]
 
-set f [open wireless-$val(rp).tr w]
+#set f [open wireless-$val(rp).tr w]
+set f [open wireless.tr w]
 $ns trace-all $f
-set nf [open wireless-$val(rp).nam w]
+#set nf [open wireless-$val(rp).nam w]
+set nf [open wireless.nam w]
 $ns namtrace-all-wireless $nf $val(x) $val(y)
 
 $ns use-newtrace
@@ -48,7 +42,7 @@ $topo load_flatgrid $val(x) $val(y)
 #
 # Create God
 #
-#create-god $num_nodes
+
 create-god 10
 
 set chan_1_ [new $val(chan)]
@@ -192,7 +186,7 @@ $a(9) set messages_seen {}
 
 #broadcast
 $ns at 0.1 "$a(0) send_message 100 1 {emergency message A}  $MESSAGE_PORT"
-$ns at 0.2 "$a(3) send_message 100 1 {emergency message B}  $MESSAGE_PORT"
+#$ns at 0.11 "$a(3) send_message 100 2 {emergency message B}  $MESSAGE_PORT"
 
 $ns at 1.0 "finish"
 
@@ -202,8 +196,8 @@ proc finish {} {
         close $f
         close $nf
 
-#        puts "running nam..."
-        exec nam wireless-$val(rp).nam &
+        puts "running nam..."
+        exec nam wireless.nam &
         exit 0
 }
 

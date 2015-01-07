@@ -184,22 +184,3 @@ r -t 0.115217217 -s 8 -d -1 -p message -e 100 -c 2 -a 0 -i 9 -k AGT
 v -t 0.115217217491947 -e sim_annotation 0.115217217491947 43 8 received redundant message 1 from 9
 r -t 0.115217296 -s 4 -d -1 -p message -e 100 -c 2 -a 0 -i 9 -k AGT
 v -t 0.115217296181273 -e sim_annotation 0.115217296181273 44 4 received redundant message 1 from 9
-v -t 0.2 -e sim_annotation 0.2 45 3 sending message 1
-+ -t 0.200000000 -s 3 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k AGT 
-- -t 0.200000000 -s 3 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k AGT
-h -t 0.200000000 -s 3 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k AGT
-+ -t 0.200395000 -s 3 -d -1 -p message -e 158 -c 2 -a 0 -i 10 -k MAC 
-- -t 0.200395000 -s 3 -d -1 -p message -e 158 -c 2 -a 0 -i 10 -k MAC
-h -t 0.200395000 -s 3 -d -1 -p message -e 158 -c 2 -a 0 -i 10 -k MAC
-r -t 0.201659667 -s 4 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k MAC
-r -t 0.201659667 -s 2 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k MAC
-r -t 0.201659745 -s 8 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k MAC
-r -t 0.201659745 -s 7 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k MAC
-r -t 0.201684667 -s 4 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k AGT
-v -t 0.201684666666667 -e sim_annotation 0.201684666666667 46 4 received redundant message 1 from 3
-r -t 0.201684667 -s 2 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k AGT
-v -t 0.201684666666667 -e sim_annotation 0.201684666666667 47 2 received redundant message 1 from 3
-r -t 0.201684745 -s 8 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k AGT
-v -t 0.201684745355993 -e sim_annotation 0.201684745355993 48 8 received redundant message 1 from 3
-r -t 0.201684745 -s 7 -d -1 -p message -e 100 -c 2 -a 0 -i 10 -k AGT
-v -t 0.201684745355993 -e sim_annotation 0.201684745355993 49 7 received redundant message 1 from 3
