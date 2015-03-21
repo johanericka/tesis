@@ -22,17 +22,17 @@
     <location netOffset="0.00,0.00" convBoundary="0.00,0.00,1000.20,0.00" origBoundary="0.00,0.00,1000.20,0.00" projParameter="!"/>
 
     <edge id=":kanan_0" function="internal">
-        <lane id=":kanan_0_0" index="0" speed="33.33" length="0.10" shape="1000.00,-4.95 1000.00,-4.95"/>
-        <lane id=":kanan_0_1" index="1" speed="33.33" length="0.10" shape="1000.00,-1.65 1000.00,-1.65"/>
+        <lane id=":kanan_0_0" index="0" speed="100.0" length="0.10" shape="1000.00,100.0 1000.00,100.0"/>
+        <lane id=":kanan_0_1" index="1" speed="100.0" length="0.10" shape="1000.00,95.0 1000.00,95.0"/>
     </edge>
 
     <edge id="jalantol" from="kiri" to="kanan" priority="0">
-        <lane id="jalantol_0" index="0" speed="33.33" length="1000.00" shape="0.00,-4.95 1000.00,-4.95"/>
-        <lane id="jalantol_1" index="1" speed="33.33" length="1000.00" shape="0.00,-1.65 1000.00,-1.65"/>
+        <lane id="jalantol_0" index="0" speed="100.0" length="1000.00" shape="0.00,100.0 1000.00,100.0"/>
+        <lane id="jalantol_1" index="1" speed="100.0" length="1000.00" shape="0.00,95.0 1000.00,95.0"/>
     </edge>
     <edge id="jalantol2" from="kanan" to="berhenti" priority="0">
-        <lane id="jalantol2_0" index="0" speed="33.33" length="0.20" shape="1000.00,-4.95 1000.20,-4.95"/>
-        <lane id="jalantol2_1" index="1" speed="33.33" length="0.20" shape="1000.00,-1.65 1000.20,-1.65"/>
+        <lane id="jalantol2_0" index="0" speed="100.0" length="0.20" shape="1000.00,100.0 1000.20,100.0"/>
+        <lane id="jalantol2_1" index="1" speed="100.0" length="0.20" shape="1000.00,95.0 1000.20,95.0"/>
     </edge>
 
     <junction id="berhenti" type="unregulated" x="1000.20" y="0.00" incLanes="jalantol2_0 jalantol2_1" intLanes="" shape="1000.20,-6.55 1000.20,-0.05"/>

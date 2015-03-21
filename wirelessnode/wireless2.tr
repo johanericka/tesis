@@ -1,0 +1,162 @@
+v 0.01 eval {set sim_annotation {0 sending message 1}}
+s -t 0.010000000 -Hs 0 -Hd -2 -Ni 0 -Nx 1000.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 0.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 0 -Iv 32 
+v 0.01 eval {set sim_annotation {message id 1}}
+v 0.01 eval {set sim_annotation {message seen 1}}
+v 0.01 eval {set sim_annotation {node _o14}}
+s -t 0.010535000 -Hs 0 -Hd -2 -Ni 0 -Nx 1000.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 0 -Mt 800 -Is 0.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 0 -Iv 32 
+r -t 0.011799667 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 0 -Mt 800 -Is 0.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 0 -Iv 32 
+r -t 0.011799745 -Hs 5 -Hd -2 -Ni 5 -Nx 900.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 0 -Mt 800 -Is 0.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 0 -Iv 32 
+r -t 0.011824667 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 0 -Mt 800 -Is 0.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 0 -Iv 32 
+v 0.011824666666666667 eval {set sim_annotation {1 received {1:emergency message A} from 0}}
+v 0.011824666666666667 eval {set sim_annotation {1 sending message 1}}
+s -t 0.011824667 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+v 0.011824666666666667 eval {set sim_annotation {message id 1}}
+v 0.011824666666666667 eval {set sim_annotation {message seen 1}}
+v 0.011824666666666667 eval {set sim_annotation {node _o34}}
+r -t 0.011824745 -Hs 5 -Hd -2 -Ni 5 -Nx 900.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 0 -Mt 800 -Is 0.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 0 -Iv 32 
+v 0.0118247453559925 eval {set sim_annotation {5 received {1:emergency message A} from 0}}
+v 0.0118247453559925 eval {set sim_annotation {5 sending message 1}}
+s -t 0.011824745 -Hs 5 -Hd -2 -Ni 5 -Nx 900.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 5.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 2 -Iv 32 
+v 0.0118247453559925 eval {set sim_annotation {message id 1}}
+v 0.0118247453559925 eval {set sim_annotation {message seen 1}}
+v 0.0118247453559925 eval {set sim_annotation {node _o114}}
+s -t 0.012199745 -Hs 5 -Hd -2 -Ni 5 -Nx 900.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 5 -Mt 800 -Is 5.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 2 -Iv 32 
+r -t 0.013464412 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 5 -Mt 800 -Is 5.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 2 -Iv 32 
+r -t 0.013464491 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 5 -Mt 800 -Is 5.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 2 -Iv 32 
+r -t 0.013464491 -Hs 0 -Hd -2 -Ni 0 -Nx 1000.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 5 -Mt 800 -Is 5.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 2 -Iv 32 
+r -t 0.013489412 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 5 -Mt 800 -Is 5.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 2 -Iv 32 
+v 0.013489412022659167 eval {set sim_annotation {6 received {1:emergency message A} from 5}}
+v 0.013489412022659167 eval {set sim_annotation {6 sending message 1}}
+s -t 0.013489412 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+v 0.013489412022659167 eval {set sim_annotation {message id 1}}
+v 0.013489412022659167 eval {set sim_annotation {message seen 1}}
+v 0.013489412022659167 eval {set sim_annotation {node _o134}}
+r -t 0.013489491 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 5 -Mt 800 -Is 5.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 2 -Iv 32 
+v 0.013489490711985 eval {set sim_annotation {1 received redundant message 1 from 5}}
+r -t 0.013489491 -Hs 0 -Hd -2 -Ni 0 -Nx 1000.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 5 -Mt 800 -Is 5.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 2 -Iv 32 
+v 0.013489490711985 eval {set sim_annotation {0 received redundant message 1 from 5}}
+s -t 0.013564412 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 3 -Iv 32 
+r -t 0.014829079 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+r -t 0.014829079 -Hs 5 -Hd -2 -Ni 5 -Nx 900.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+r -t 0.014829157 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+r -t 0.014829157 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+r -t 0.014854079 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+v 0.014854078689325834 eval {set sim_annotation {7 received {1:emergency message A} from 6}}
+v 0.014854078689325834 eval {set sim_annotation {7 sending message 1}}
+s -t 0.014854079 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+v 0.014854078689325834 eval {set sim_annotation {message id 1}}
+v 0.014854078689325834 eval {set sim_annotation {message seen 1}}
+v 0.014854078689325834 eval {set sim_annotation {node _o154}}
+r -t 0.014854079 -Hs 5 -Hd -2 -Ni 5 -Nx 900.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+v 0.014854078689325834 eval {set sim_annotation {5 received redundant message 1 from 6}}
+r -t 0.014854157 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+v 0.014854157378651667 eval {set sim_annotation {2 received {1:emergency message A} from 6}}
+v 0.014854157378651667 eval {set sim_annotation {2 sending message 1}}
+s -t 0.014854157 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+v 0.014854157378651667 eval {set sim_annotation {message id 1}}
+v 0.014854157378651667 eval {set sim_annotation {message seen 1}}
+v 0.014854157378651667 eval {set sim_annotation {node _o54}}
+r -t 0.014854157 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 6 -Mt 800 -Is 6.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 3 -Iv 32 
+v 0.014854157378651667 eval {set sim_annotation {1 received redundant message 1 from 6}}
+s -t 0.015099157 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 1 -Iv 32 
+r -t 0.016363824 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+r -t 0.016363824 -Hs 0 -Hd -2 -Ni 0 -Nx 1000.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+r -t 0.016363903 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+r -t 0.016363903 -Hs 5 -Hd -2 -Ni 5 -Nx 900.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+r -t 0.016388824 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+v 0.016388824045318332 eval {set sim_annotation {2 received redundant message 1 from 1}}
+r -t 0.016388824 -Hs 0 -Hd -2 -Ni 0 -Nx 1000.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+v 0.016388824045318332 eval {set sim_annotation {0 received redundant message 1 from 1}}
+r -t 0.016388903 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+v 0.016388902734644165 eval {set sim_annotation {6 received redundant message 1 from 1}}
+r -t 0.016388903 -Hs 5 -Hd -2 -Ni 5 -Nx 900.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 1 -Mt 800 -Is 1.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 1 -Iv 32 
+v 0.016388902734644165 eval {set sim_annotation {5 received redundant message 1 from 1}}
+s -t 0.016493824 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 5 -Iv 32 
+r -t 0.017758491 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+r -t 0.017758491 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+r -t 0.017758569 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+r -t 0.017758569 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+r -t 0.017783491 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+v 0.017783490711985001 eval {set sim_annotation {3 received {1:emergency message A} from 2}}
+v 0.017783490711985001 eval {set sim_annotation {3 sending message 1}}
+s -t 0.017783491 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+v 0.017783490711985001 eval {set sim_annotation {message id 1}}
+v 0.017783490711985001 eval {set sim_annotation {message seen 1}}
+v 0.017783490711985001 eval {set sim_annotation {node _o74}}
+r -t 0.017783491 -Hs 1 -Hd -2 -Ni 1 -Nx 800.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+v 0.017783490711985001 eval {set sim_annotation {1 received redundant message 1 from 2}}
+r -t 0.017783569 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+v 0.017783569401310834 eval {set sim_annotation {7 received redundant message 1 from 2}}
+r -t 0.017783569 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 2 -Mt 800 -Is 2.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 5 -Iv 32 
+v 0.017783569401310834 eval {set sim_annotation {6 received redundant message 1 from 2}}
+s -t 0.017848569 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 4 -Iv 32 
+r -t 0.019113236 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+r -t 0.019113236 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+r -t 0.019113315 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+r -t 0.019113315 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+r -t 0.019138236 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+v 0.019138236067977502 eval {set sim_annotation {8 received {1:emergency message A} from 7}}
+v 0.019138236067977502 eval {set sim_annotation {8 sending message 1}}
+s -t 0.019138236 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+v 0.019138236067977502 eval {set sim_annotation {message id 1}}
+v 0.019138236067977502 eval {set sim_annotation {message seen 1}}
+v 0.019138236067977502 eval {set sim_annotation {node _o174}}
+r -t 0.019138236 -Hs 6 -Hd -2 -Ni 6 -Nx 700.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+v 0.019138236067977502 eval {set sim_annotation {6 received redundant message 1 from 7}}
+r -t 0.019138315 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+v 0.019138314757303335 eval {set sim_annotation {3 received redundant message 1 from 7}}
+r -t 0.019138315 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 7 -Mt 800 -Is 7.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 4 -Iv 32 
+v 0.019138314757303335 eval {set sim_annotation {2 received redundant message 1 from 7}}
+s -t 0.019403315 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 6 -Iv 32 
+r -t 0.020667981 -Hs 4 -Hd -2 -Ni 4 -Nx 200.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+r -t 0.020667981 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+r -t 0.020668060 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+r -t 0.020668060 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+r -t 0.020692981 -Hs 4 -Hd -2 -Ni 4 -Nx 200.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+v 0.020692981423970001 eval {set sim_annotation {4 received {1:emergency message A} from 3}}
+v 0.020692981423970001 eval {set sim_annotation {4 sending message 1}}
+s -t 0.020692981 -Hs 4 -Hd -2 -Ni 4 -Nx 200.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 4.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 8 -Iv 32 
+v 0.020692981423970001 eval {set sim_annotation {message id 1}}
+v 0.020692981423970001 eval {set sim_annotation {message seen 1}}
+v 0.020692981423970001 eval {set sim_annotation {node _o94}}
+r -t 0.020692981 -Hs 2 -Hd -2 -Ni 2 -Nx 600.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+v 0.020692981423970001 eval {set sim_annotation {2 received redundant message 1 from 3}}
+r -t 0.020693060 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+v 0.020693060113295834 eval {set sim_annotation {8 received redundant message 1 from 3}}
+r -t 0.020693060 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 3 -Mt 800 -Is 3.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 6 -Iv 32 
+v 0.020693060113295834 eval {set sim_annotation {7 received redundant message 1 from 3}}
+s -t 0.021078060 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 7 -Iv 32 
+r -t 0.022342727 -Hs 9 -Hd -2 -Ni 9 -Nx 100.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+r -t 0.022342727 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+r -t 0.022342805 -Hs 4 -Hd -2 -Ni 4 -Nx 200.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+r -t 0.022342805 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+r -t 0.022367727 -Hs 9 -Hd -2 -Ni 9 -Nx 100.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+v 0.022367726779962502 eval {set sim_annotation {9 received {1:emergency message A} from 8}}
+v 0.022367726779962502 eval {set sim_annotation {9 sending message 1}}
+s -t 0.022367727 -Hs 9 -Hd -2 -Ni 9 -Nx 100.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md 0 -Ms 0 -Mt 0 -Is 9.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 9 -Iv 32 
+v 0.022367726779962502 eval {set sim_annotation {message id 1}}
+v 0.022367726779962502 eval {set sim_annotation {message seen 1}}
+v 0.022367726779962502 eval {set sim_annotation {node _o194}}
+r -t 0.022367727 -Hs 7 -Hd -2 -Ni 7 -Nx 500.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+v 0.022367726779962502 eval {set sim_annotation {7 received redundant message 1 from 8}}
+r -t 0.022367805 -Hs 4 -Hd -2 -Ni 4 -Nx 200.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+v 0.022367805469288335 eval {set sim_annotation {4 received redundant message 1 from 8}}
+r -t 0.022367805 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 8 -Mt 800 -Is 8.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 7 -Iv 32 
+v 0.022367805469288335 eval {set sim_annotation {3 received redundant message 1 from 8}}
+s -t 0.022452805 -Hs 4 -Hd -2 -Ni 4 -Nx 200.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 4 -Mt 800 -Is 4.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 8 -Iv 32 
+r -t 0.023717472 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 4 -Mt 800 -Is 4.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 8 -Iv 32 
+r -t 0.023717551 -Hs 9 -Hd -2 -Ni 9 -Nx 100.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 4 -Mt 800 -Is 4.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 8 -Iv 32 
+r -t 0.023717551 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 4 -Mt 800 -Is 4.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 8 -Iv 32 
+r -t 0.023742472 -Hs 3 -Hd -2 -Ni 3 -Nx 400.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 4 -Mt 800 -Is 4.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 8 -Iv 32 
+v 0.023742472135955001 eval {set sim_annotation {3 received redundant message 1 from 4}}
+r -t 0.023742551 -Hs 9 -Hd -2 -Ni 9 -Nx 100.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 4 -Mt 800 -Is 4.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 8 -Iv 32 
+v 0.023742550825280834 eval {set sim_annotation {9 received redundant message 1 from 4}}
+r -t 0.023742551 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 4 -Mt 800 -Is 4.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 8 -Iv 32 
+v 0.023742550825280834 eval {set sim_annotation {8 received redundant message 1 from 4}}
+s -t 0.023927551 -Hs 9 -Hd -2 -Ni 9 -Nx 100.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 9 -Mt 800 -Is 9.42 -Id -1.42 -It message -Il 158 -If 0 -Ii 9 -Iv 32 
+r -t 0.025192217 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 9 -Mt 800 -Is 9.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 9 -Iv 32 
+r -t 0.025192296 -Hs 4 -Hd -2 -Ni 4 -Nx 200.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl MAC -Nw --- -Ma 0 -Md ffffffff -Ms 9 -Mt 800 -Is 9.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 9 -Iv 32 
+r -t 0.025217217 -Hs 8 -Hd -2 -Ni 8 -Nx 300.00 -Ny 300.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 9 -Mt 800 -Is 9.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 9 -Iv 32 
+v 0.0252172174919475 eval {set sim_annotation {8 received redundant message 1 from 9}}
+r -t 0.025217296 -Hs 4 -Hd -2 -Ni 4 -Nx 200.00 -Ny 100.00 -Nz 0.00 -Ne -1.000000 -Nl AGT -Nw --- -Ma 0 -Md ffffffff -Ms 9 -Mt 800 -Is 9.42 -Id -1.42 -It message -Il 100 -If 0 -Ii 9 -Iv 32 
+v 0.025217296181273333 eval {set sim_annotation {4 received redundant message 1 from 9}}
